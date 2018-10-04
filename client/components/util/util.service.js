@@ -53,7 +53,7 @@
     return Util;
   }
 
-  angular.module('bhcmartApp.util')
+  angular.module('buildoutletApp.util')
     .factory('Util', UtilService)
     .filter('startSearchFrom', function() {
       return function(input, start) {

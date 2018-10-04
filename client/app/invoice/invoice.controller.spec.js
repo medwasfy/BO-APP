@@ -3,7 +3,7 @@
 describe('Controller: InvoiceCtrl', function () {
 
   // load the controller's module
-  beforeEach(module('bhcmartApp'));
+  beforeEach(module('buildoutletApp'));
 
   var InvoiceCtrl, scope;
 

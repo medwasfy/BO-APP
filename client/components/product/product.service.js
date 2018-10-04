@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('bhcmartApp')
+angular.module('buildoutletApp')
   .factory('Catalog', function($resource) {
     return $resource('/api/catalogs/:id', {
       id: '@_id'

@@ -31,5 +31,5 @@ class LoginController {
   }
 }
 
-angular.module('bhcmartApp')
+angular.module('buildoutletApp')
   .controller('LoginController', LoginController);

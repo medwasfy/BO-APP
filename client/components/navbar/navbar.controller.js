@@ -87,5 +87,5 @@ class NavbarController {
   }
 }
 
-angular.module('bhcmartApp')
+angular.module('buildoutletApp')
   .controller('NavbarController', NavbarController);

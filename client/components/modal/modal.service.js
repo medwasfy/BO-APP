@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('bhcmartApp')
+angular.module('buildoutletApp')
   .factory('Modal', function($rootScope, $uibModal) {
     /**
      * Opens a modal

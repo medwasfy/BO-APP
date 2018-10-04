@@ -19,7 +19,7 @@ class SettingsController {
           this.message = 'Password successfully changed.';
         })
         .catch(() => {
-          form.password.$setValidity('mongoose', false);
+          form.password.$setValidity('ose', false);
           this.errors.other = 'Incorrect password';
           this.message = '';
         });
@@ -27,5 +27,5 @@ class SettingsController {
   }
 }
 
-angular.module('bhcmartApp')
+angular.module('buildoutletApp')
   .controller('SettingsController', SettingsController);

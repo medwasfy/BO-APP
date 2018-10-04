@@ -1,12 +1,12 @@
 # Summary
 
-eCommerce site built with the MEAN stack - https://bhcmart.herokuapp.com/
+eCommerce site built with the MEAN stack - https://buildoutlet.herokuapp.com/
 
 ## Description
 
 This is a starter project if you intend building an eCommerce platform on MEAN(Mongo, Express, Angular, Node).  [Socket](https://socket.io) was used to achieve a realtime updates in prices and quantities of products.
 
-Admin User: admin@bhcmart.com
+Admin User: admin@buildoutlet.com
 Password: 123456
 
 ### Prerequisites

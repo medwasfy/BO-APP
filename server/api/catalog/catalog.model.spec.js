@@ -101,7 +101,7 @@ describe('Finding products by category', function () {
           price : 23.99,
           stock : 950,
           categories : [books],
-          description : 'Build an state-of-the-art using the MEAN stack (MongoDB, ExpressJS, AngularJS and NodeJS)'
+          description : 'Build a state-of-the-art using the MEAN stack (MongoDB, ExpressJS, AngularJS and NodeJS)'
         }, {
           title : 'Ray-Ban RB2132 Sunglasses',
           price : 146.99,

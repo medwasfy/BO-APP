@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('bhcmartApp')
+angular.module('buildoutletApp')
   .controller('ProductCtrl', ['$scope', '$stateParams', '$state', 'Product',
     function($scope, $stateParams, $state, Product) {
       // Upsell Products

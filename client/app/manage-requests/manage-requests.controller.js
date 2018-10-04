@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('bhcmartApp')
+angular.module('buildoutletApp')
   .controller('ManageRequestsCtrl', ['$scope', 'Modal', 'Request', 'Auth', function($scope, Modal, Request, Auth) {
     let user = Auth.getCurrentUser();
     $scope.isAdmin = Auth.hasRole('admin');

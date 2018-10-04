@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('bhcmartApp')
+angular.module('buildoutletApp')
   .directive('sidebarAccount', function () {
     return {
       templateUrl: 'components/sidebar-account/sidebar-account.html',

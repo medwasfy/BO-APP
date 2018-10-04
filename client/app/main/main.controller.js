@@ -152,7 +152,7 @@
     }
   }
 
-  angular.module('bhcmartApp')
+  angular.module('buildoutletApp')
     .controller('MainController', MainController);
 
 })();

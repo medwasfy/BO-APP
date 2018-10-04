@@ -1,7 +1,7 @@
 (function(angular, undefined) {
 'use strict';
 
-angular.module('bhcmartApp.constants', [])
+angular.module('buildoutletApp.constants', [])
 
 .constant('appConfig', {userRoles:['guest','user','admin']})
 

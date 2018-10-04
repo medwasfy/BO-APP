@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('bhcmartApp')
+angular.module('buildoutletApp')
   .controller('ManageCategoriesCtrl', ['$scope', 'Catalog', 'Modal',
     function($scope, Catalog, Modal) {
       Catalog.query(function(categories) {

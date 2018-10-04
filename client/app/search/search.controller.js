@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('bhcmartApp')
+angular.module('buildoutletApp')
   .controller('SearchCtrl', ['$scope', '$stateParams', 'products', function($scope, $stateParams, products) {
    
     $scope.products = products;

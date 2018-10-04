@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('bhcmartApp')
+angular.module('buildoutletApp')
   .factory('Request', function($resource) {
     return $resource('/api/requests/:id/:controller', {
       id: '@_id'

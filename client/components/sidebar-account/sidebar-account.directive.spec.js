@@ -3,7 +3,7 @@
 describe('Directive: sidebarAccount', function () {
 
   // load the directive's module and view
-  beforeEach(module('bhcmartApp'));
+  beforeEach(module('buildoutletApp'));
   beforeEach(module('components/sidebar-account/sidebar-account.html'));
 
   var element, scope;

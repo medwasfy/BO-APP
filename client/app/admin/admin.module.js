@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('bhcmartApp.admin', [
-  'bhcmartApp.auth',
+angular.module('buildoutletApp.admin', [
+  'buildoutletApp.auth',
   'ui.router'
 ]);

@@ -1,3 +1,3 @@
 'use strict';
 
-angular.module('bhcmartApp.util', []);
+angular.module('buildoutletApp.util', []);

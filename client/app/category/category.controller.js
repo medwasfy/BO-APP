@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('bhcmartApp')
+angular.module('buildoutletApp')
   .controller('CategoryCtrl', ['$scope', '$stateParams', 'Product', function($scope, $stateParams, Product) {
     console.log($stateParams)
     $stateParams.slug == 'all' ? Product.query(process($scope)) : Product.catalog({ id: $stateParams.slug, limit: 0 }, process($scope));

@@ -21,7 +21,7 @@
     });
   }
 
-  angular.module('bhcmartApp.auth')
+  angular.module('buildoutletApp.auth')
     .factory('User', UserResource);
 
 })();

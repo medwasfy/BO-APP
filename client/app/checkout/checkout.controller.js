@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('bhcmartApp')
+angular.module('buildoutletApp')
   .controller('CheckoutCtrl', ['$scope', 'Auth', '$state', 'Order', 'ngCart', function($scope, Auth, $state, Order, ngCart) {
 
     $scope.user = Auth.getCurrentUser() || {};

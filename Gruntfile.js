@@ -315,7 +315,7 @@ module.exports = function (grunt) {
     // `server/config/environment/shared.js`
     ngconstant: {
       options: {
-        name: 'bhcmartApp.constants',
+        name: 'buildoutletApp.constants',
         dest: '<%= yeoman.client %>/app/app.constant.js',
         deps: [],
         wrap: true,
@@ -334,7 +334,7 @@ module.exports = function (grunt) {
     ngtemplates: {
       options: {
         // This should be the name of your apps angular module
-        module: 'bhcmartApp',
+        module: 'buildoutletApp',
         htmlmin: {
           collapseBooleanAttributes: true,
           collapseWhitespace: true,

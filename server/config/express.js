@@ -43,7 +43,7 @@ export default function(app) {
     resave: false,
     store: new mongoStore({
       mongooseConnection: mongoose.connection,
-      db: 'bhcmart'
+      db: 'mongodb://bodadmin:boadmin1@!@ds123173.mlab.com:23173/buildoutlet'
     })
   }));
 

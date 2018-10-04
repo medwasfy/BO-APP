@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('bhcmartApp')
+angular.module('buildoutletApp')
   .directive('sidebarCat', function() {
     return {
       templateUrl: 'components/sidebar-cat/sidebar-cat.html',

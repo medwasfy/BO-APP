@@ -3,7 +3,7 @@
 describe('Directive: sidebarCat', function () {
 
   // load the directive's module and view
-  beforeEach(module('bhcmartApp'));
+  beforeEach(module('buildoutletApp'));
   beforeEach(module('components/sidebar-cat/sidebar-cat.html'));
 
   var element, scope;

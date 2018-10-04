@@ -19,7 +19,7 @@ module.exports = {
           process.env.MONGOHQ_URL ||
           process.env.OPENSHIFT_MONGODB_DB_URL +
           process.env.OPENSHIFT_APP_NAME ||
-          'mongodb://localhost/bhcmart'
+          'mongodb://bodadmin:boadmin1@!@ds123173.mlab.com:23173/buildoutlet'
   },
   seedDB: false
 };

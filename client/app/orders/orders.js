@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('bhcmartApp')
+angular.module('buildoutletApp')
   .config(function ($stateProvider) {
     $stateProvider
       .state('orders', {

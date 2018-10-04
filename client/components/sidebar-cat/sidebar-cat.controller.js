@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('bhcmartApp')
+angular.module('buildoutletApp')
   .controller('SidebarCatCtrl', function($scope, Catalog, socket) {
     let self = $scope;
 

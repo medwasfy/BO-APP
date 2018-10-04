@@ -1,8 +1,8 @@
 'use strict';
 
-angular.module('bhcmartApp.auth', [
-  'bhcmartApp.constants',
-  'bhcmartApp.util',
+angular.module('buildoutletApp.auth', [
+  'buildoutletApp.constants',
+  'buildoutletApp.util',
   'ngCookies',
   'ui.router'
 ])

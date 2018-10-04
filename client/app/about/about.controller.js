@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('bhcmartApp')
+angular.module('buildoutletApp')
   .controller('AboutCtrl', function ($scope) {
     $scope.message = 'Hello';
   });

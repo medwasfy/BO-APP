@@ -24,7 +24,7 @@
 
   }
 
-  angular.module('bhcmartApp.admin')
+  angular.module('buildoutletApp.admin')
     .controller('AdminController', AdminController);
 
 })();
