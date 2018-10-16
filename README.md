@@ -1,18 +1,12 @@
 # Summary
 
-eCommerce site built with the MEAN stack - https://buildoutlet.herokuapp.com/
+E-Commerce site built with MEAN stack 
 
 ## Description
-
-This is a starter project if you intend building an eCommerce platform on MEAN(Mongo, Express, Angular, Node).  [Socket](https://socket.io) was used to achieve a realtime updates in prices and quantities of products.
-
-Admin User: admin@buildoutlet.com
-Password: 123456
+socket.io was used to achieve a realtime updates in prices and quantities of products.
 
 ### Prerequisites
 
-- [Git](https://git-scm.com/)
-- [Node.js and npm](nodejs.org) Node ^4.2.3, npm ^2.14.7
 - [Bower](bower.io) (`npm install --global bower`)
 - [Ruby](https://www.ruby-lang.org) and then `gem install sass`
 - [Grunt](http://gruntjs.com/) (`npm install --global grunt-cli`)
@@ -24,17 +18,18 @@ Password: 123456
 
 2. Run `bower install` to install front-end dependencies.
 
-3. Run `mongod` in a separate shell to keep an instance of the MongoDB Daemon running
+3. Run `mongod` in a separate bash terminal keep an instance of the MongoDB running
 
 4. Run `grunt serve` to start the development server. It should automatically open the client in your browser when ready.
 
 ## Build & development
-
-Run `grunt build` or `grunt` for building and `grunt serve` for preview.
+Run `grunt serve` to work in developpement mode.
+Run `grunt build` or `grunt` to build the app and serve a dist folder. 
+will run the unit tests with karma config. make sure to check these files incase you need to change anything prior.
 
 ## Testing
 
-Running `npm test` will run the unit tests with karma.
+Running `npm test` will run the unit tests with karma config. make sure to check these files incase you need to change anything prior.
 
 ## Production
-Running `grunt serve:dist` previews the application in production mode
+Running `grunt serve:dist` previews the application in production mode and overwites the previous grunt build dist folder.
